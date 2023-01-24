@@ -1,0 +1,149 @@
+[
+  {
+    "model": "jwt_auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$HBLTrHzuyNOOfwtoKcEAr3$mjaCylgf+kfEUgX/uujocuBmIK2wWRTsHTgN52wFlGw=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "gael",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-01-19T22:38:11.143Z",
+      "email": "gael@email.com",
+      "profile_image": null,
+      "postcode": "n15fe",
+      "image": "https://res.cloudinary.com/dsrdfnxit/image/upload/v1674167845/bargain-api/b2mvvbqrwsipwxrhbr3s.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "jwt_auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$O5OvmMsCREH2DRFgozUAnk$aTmaisIJvivo8jmsuB5RLbsBFB5AYMqvaDN1IorDguU=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "sam",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-01-19T22:39:02.279Z",
+      "email": "sam@email.com",
+      "profile_image": null,
+      "postcode": "WC1H 8NP",
+      "image": "https://res.cloudinary.com/dsrdfnxit/image/upload/v1674167926/bargain-api/s13gpbxrzbhsp0jqxekd.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "jwt_auth.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$Fyi1U2uNBimUrCyyWjOla4$UrUMrejaE0Z6e8AJbjkCs43CK0OOilgJwiEDrObZdSY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "bashar",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-01-19T22:39:33.433Z",
+      "email": "bashar@email.com",
+      "profile_image": null,
+      "postcode": "CT16 1DL",
+      "image": "https://res.cloudinary.com/dsrdfnxit/image/upload/v1674167960/bargain-api/mcc6sppdfs84h46vxh16.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "jwt_auth.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$49P5fBuaPQlurvgVgyk8K0$0iVxTPL0aaDuzM4+qPjR7Uyd9hxOAsJ6hGu06vNlb6s=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "lucy",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-01-19T22:40:13.665Z",
+      "email": "lucy@email.com",
+      "profile_image": null,
+      "postcode": "n15fe",
+      "image": "https://res.cloudinary.com/dsrdfnxit/image/upload/v1674168005/bargain-api/bqd2c8eysouztgaqtwh9.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "jwt_auth.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$9qpQHkFIImEKwgb5MfmdIC$DthmlTr2e+3DIylIRaVFalUULqMuSW3Utw35XyZgRqg=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "nick",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-01-19T22:40:42.920Z",
+      "email": "nick@email.com",
+      "profile_image": null,
+      "postcode": "n15fe",
+      "image": "https://res.cloudinary.com/dsrdfnxit/image/upload/v1674168033/bargain-api/u2iqvtfwclubuw9lrmnj.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "jwt_auth.user",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$wOqwRJrKnioqO8cqS4IdbT$lBXpm0uMzRqfcZHc070WIbAKoEQiMOdRTFmkfmikyOA=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "alex",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-01-19T22:41:13.319Z",
+      "email": "alex@email.com",
+      "profile_image": null,
+      "postcode": "WC1H 8NP",
+      "image": "https://res.cloudinary.com/dsrdfnxit/image/upload/v1674168065/bargain-api/vgfbjtnepx7bqmvtnfoe.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "jwt_auth.user",
+    "pk": 7,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$GwD1ODLoFwzwjJCrYoO3e8$ynDcvCnBZwON1b+KpCDLtgDU/azW5eEQNxvROlI2flM=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "archie",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-01-19T22:41:40.230Z",
+      "email": "archie@email.com",
+      "profile_image": null,
+      "postcode": "CT16 1DL",
+      "image": "https://res.cloudinary.com/dsrdfnxit/image/upload/v1674168089/bargain-api/ryvit7hlemcvmw6q1ncn.jpg",
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]

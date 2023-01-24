@@ -1,0 +1,284 @@
+[
+{
+  "model": "products.product",
+  "pk": 13,
+  "fields": {
+    "name": "old red volvo",
+    "description": "This car never let me down, goog for going from A to B",
+    "price": "13,200",
+    "image": "https://thumbs.dreamstime.com/b/old-classic-red-swedish-sedan-car-volvo-parked-private-right-side-view-still-popular-big-long-luxury-model-nineties-good-196482966.jpg",
+    "created_at": "2022-12-13T16:29:09.392Z",
+    "owner": 4,
+    "categories": []
+  }
+},
+{
+  "model": "products.product",
+  "pk": 14,
+  "fields": {
+    "name": "vintage bmw",
+    "description": "Looks bad at first sight but this car is a classic",
+    "price": "32,000",
+    "image": "https://hips.hearstapps.com/autoweek/assets/s3fs-public/2019-08/00_-_1981_bmw_320i_in_colorado_junkyard_-_photo_by_murilee_martin.jpg",
+    "created_at": "2022-12-13T16:29:09.392Z",
+    "owner": 6,
+    "categories": [
+      6
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 16,
+  "fields": {
+    "name": "Queen Mug",
+    "description": "Queen mug",
+    "price": "15",
+    "image": "https://m.media-amazon.com/images/I/61tw6QVH3ML._AC_SX679_.jpg",
+    "created_at": "2022-12-13T16:29:09.392Z",
+    "owner": 2,
+    "categories": []
+  }
+},
+{
+  "model": "products.product",
+  "pk": 18,
+  "fields": {
+    "name": "screwdrivers",
+    "description": "bundle of different screwdrivers",
+    "price": "25",
+    "image": "https://res.cloudinary.com/dsrdfnxit/image/upload/v1671017682/bargain-api/gnljogh94oqamyrizby7.jpg",
+    "created_at": "2022-12-14T11:48:10.162Z",
+    "owner": 1,
+    "categories": []
+  }
+},
+{
+  "model": "products.product",
+  "pk": 19,
+  "fields": {
+    "name": "shell neclace",
+    "description": "I hand-picked shells in Miami beach one year ago and crafted this necklace",
+    "price": "150",
+    "image": "https://res.cloudinary.com/dsrdfnxit/image/upload/v1671025879/bargain-api/inv2iq7l86u4gflie5tv.webp",
+    "created_at": "2022-12-14T13:51:22.149Z",
+    "owner": 1,
+    "categories": [
+      12
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 20,
+  "fields": {
+    "name": "Cap",
+    "description": "Old school LA cap",
+    "price": "30",
+    "image": "https://res.cloudinary.com/dsrdfnxit/image/upload/v1671153260/bargain-api/qdcmhxuoggcceit9epfz.webp",
+    "created_at": "2022-12-16T01:14:29.662Z",
+    "owner": 1,
+    "categories": []
+  }
+},
+{
+  "model": "products.product",
+  "pk": 21,
+  "fields": {
+    "name": "helicopter toy",
+    "description": "helicopter toy brand toyland",
+    "price": "10",
+    "image": "https://res.cloudinary.com/dsrdfnxit/image/upload/v1671153633/bargain-api/ksn5ifvsrbdbqafm0spl.jpg",
+    "created_at": "2022-12-16T01:20:50.228Z",
+    "owner": 8,
+    "categories": [
+      3
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 22,
+  "fields": {
+    "name": "dog pyjama",
+    "description": "dog pyjamapyjama for a big-sized dog, it keeps him warm",
+    "price": "20",
+    "image": "https://res.cloudinary.com/dsrdfnxit/image/upload/v1671156517/bargain-api/dkohe5glnr5y7s5tt0d5.jpg",
+    "created_at": "2022-12-16T02:08:42.709Z",
+    "owner": 9,
+    "categories": [
+      12
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 25,
+  "fields": {
+    "name": "good car",
+    "description": "toyota 200cv",
+    "price": "6,500",
+    "image": "https://res.cloudinary.com/dsrdfnxit/image/upload/v1671166610/bargain-api/mwobchudazfkzbvefksu.jpg",
+    "created_at": "2022-12-16T04:56:53.934Z",
+    "owner": 1,
+    "categories": [
+      6
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 26,
+  "fields": {
+    "name": "honda",
+    "description": "honda 100 cv, 80,000 miles",
+    "price": "3,700",
+    "image": "https://res.cloudinary.com/dsrdfnxit/image/upload/v1671166753/bargain-api/v3tayzymucaqsxwa1ttk.jpg",
+    "created_at": "2022-12-16T04:59:15.779Z",
+    "owner": 1,
+    "categories": [
+      6
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 28,
+  "fields": {
+    "name": "honda model z",
+    "description": "good car",
+    "price": "10,200",
+    "image": "https://res.cloudinary.com/dsrdfnxit/image/upload/v1671166953/bargain-api/sbp6pzrx0lrbeoboyafh.jpg",
+    "created_at": "2022-12-16T05:02:39.172Z",
+    "owner": 1,
+    "categories": [
+      6
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 29,
+  "fields": {
+    "name": "bike",
+    "description": "blue bike",
+    "price": "74",
+    "image": "https://res.cloudinary.com/dsrdfnxit/image/upload/v1671169558/bargain-api/v9twqhwnlr2msg70f9ro.jpg",
+    "created_at": "2022-12-16T05:46:01.298Z",
+    "owner": 14,
+    "categories": [
+      3
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 32,
+  "fields": {
+    "name": "drums",
+    "description": "complete set of drums, never used it",
+    "price": "450",
+    "image": "https://res.cloudinary.com/dsrdfnxit/image/upload/v1671392098/bargain-api/qvdikalcwnhwko6hd7r4.jpg",
+    "created_at": "2022-12-18T19:35:02.223Z",
+    "owner": 19,
+    "categories": [
+      3
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 34,
+  "fields": {
+    "name": "Mouse",
+    "description": "Good gaming mouse, brand astro, wireless",
+    "price": "14",
+    "image": "https://res.cloudinary.com/dsrdfnxit/image/upload/v1673451816/bargain-api/etwmgdm75qvlhjuleqvy.jpg",
+    "created_at": "2023-01-11T15:43:40.655Z",
+    "owner": 20,
+    "categories": [
+      1,
+      12
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 35,
+  "fields": {
+    "name": "Inflatable boat",
+    "description": "Very good condition, paddles included",
+    "price": "135",
+    "image": "https://res.cloudinary.com/dsrdfnxit/image/upload/v1673460038/bargain-api/oennmliku6c3kdsite6s.jpg",
+    "created_at": "2023-01-11T18:00:41.152Z",
+    "owner": 21,
+    "categories": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 36,
+  "fields": {
+    "name": "Earings",
+    "description": "Vintage earings",
+    "price": "40",
+    "image": "https://res.cloudinary.com/dsrdfnxit/image/upload/v1673461912/bargain-api/b93ff3izx8wjmfmgghbz.jpg",
+    "created_at": "2023-01-11T18:31:55.258Z",
+    "owner": 22,
+    "categories": [
+      12
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 37,
+  "fields": {
+    "name": "bike",
+    "description": "erre",
+    "price": "150",
+    "image": "https://res.cloudinary.com/dsrdfnxit/image/upload/v1673469985/bargain-api/cwcxwyf5nrs14arwxb3t.jpg",
+    "created_at": "2023-01-11T20:46:26.543Z",
+    "owner": 22,
+    "categories": [
+      11
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 38,
+  "fields": {
+    "name": "bikeer",
+    "description": "bundle of different screwdrivers",
+    "price": "150",
+    "image": "https://res.cloudinary.com/dsrdfnxit/image/upload/v1673705024/bargain-api/dz35iq1bhnml5wpeb1kr.jpg",
+    "created_at": "2023-01-14T14:03:51.803Z",
+    "owner": 23,
+    "categories": [
+      3,
+      11
+    ]
+  }
+},
+{
+  "model": "products.product",
+  "pk": 39,
+  "fields": {
+    "name": "dffd",
+    "description": "dff",
+    "price": "10,200",
+    "image": "https://res.cloudinary.com/dsrdfnxit/image/upload/v1673705195/bargain-api/evxe9bofigtxtgnoutj6.jpg",
+    "created_at": "2023-01-14T14:06:37.453Z",
+    "owner": 23,
+    "categories": [
+      4,
+      5,
+      6
+    ]
+  }
+}
+]
