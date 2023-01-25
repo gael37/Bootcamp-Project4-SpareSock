@@ -10,11 +10,11 @@ https://gd-spare-sock.herokuapp.com/
 
 To run the app locally, download the zip file and open it with your code editor, then split the terminal and run these commands:
 
--on the project root: 
+- on the project root: 
 pipenv install django
 python manage.py runserver
 
--cd in the client folder:
+- cd in the client folder:
 npm i
 npm run start
 
@@ -48,6 +48,8 @@ Others:
 - Excalidraw
 - Insomnia
 - TablePlus
+- Cloudinary
+- -bcrypt
 
 # Brief
 
