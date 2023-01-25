@@ -1,12 +1,12 @@
-Description
+# Description
 
 The 12th and final week of General Assembly’s Software Engineering Immersive bootcamp was about creating a full stack application, individually, using React.js for the front end, Django for the back-end and a PostgreSQL database. My application, called The Bargain Corner, is a Gumtree-like ad hosting platform with an authentication system and CRUD functionalities, where customers can post and browse ads and also message each other.
 
-Deployment link:
+# Deployment link:
 
 https://gd-spare-sock.herokuapp.com/
 
-Getting Started/Code Installation
+# Getting Started/Code Installation
 
 To run the app locally, download the zip file and open it with your code editor, then split the terminal and run these commands:
 
@@ -20,8 +20,7 @@ npm run start
 
 The application should open in your browser.
 
-
-Timeframe & Working Team (Solo/Pair/Group)
+# Timeframe & Working Team (Solo/Pair/Group)
 
 This project was fully created individually, within a one week timeframe.
 
@@ -49,7 +48,7 @@ Excalidraw
 Insomnia
 TablePlus
 
-Brief
+# Brief
 
 Build a full-stack application by making our own front-end and our own back-end.
 Use a Python Django API, using Django REST Framework to serve our data from a Postgres database.
@@ -59,7 +58,7 @@ Our application must have a visually impressive design.
 Implement thoughtful user stories/wireframes.
 Be deployed online.
 
-Planning
+# Planning
 
 I wanted to create a Gumtree-like platform because I thought it would be adapted to the brief (there are many CRUD functionalities possible with this type of app).
 Here is the wireframe of what I wanted to build:
@@ -97,7 +96,7 @@ On the following diagram are displayed my relationships:
 
 
 
-Build/Code Process
+# Build/Code Process
 
 I started with the setup of my Django backend, including:
 Creation of a virtual environment and installing Django on it.
@@ -220,21 +219,21 @@ As straightforward as it sounds I then send a delete request with the proper hea
 Edit/delete product functionality:
 Any owner when navigating to the single product page is offered the possibility to edit or delete his ad, in the same manner as for the profile details.
 
-Challenges
+# Challenges
 
 - The Django relationships system was hard to deal with at the beginning. I was confused at how to set my apps, models and serializers according to what I wanted to achieve in the front-end. I overcame this difficulty by taking my time and properly using the relationship diagram that I had set before coding.
 - I spent some time on the filters of my home page as well. I wanted them to work in a combinatory way so I had to find the good order in which to use my variables: first setting the ‘searchedProducts’ from the search bar input and then using this same variable in the ‘filterProducts’ callback function.
 - The biggest challenge I faced was to display the distance between the current user and the owner of each ad. I thought I needed the coordinates and to use them to make a distance calculation. After some consideration, I had the idea of using a postcode but it was hard to find a free API that could send back the latitude and longitude. I finally found one but it’s for the UK only. 
 - I faced on immediate problem linked to the previous challenge: if the user postcode was somehow not valid, or outside of the UK, or just if there was no user logged-in,  the axios request would fail and then in my JSX wrapper the variables ‘latitude’ and ‘longitude’ would be undefined, leading to a blank rendered page. I partially overcame this problem by creating two home pages components. One for a logged-in user and one for a random user who is just browsing through the application, where no request for geo-localisation is sent. 
 
-Wins
+# Wins
 
 - I felt a certain satisfaction when I got the ‘distance’ functionality to work, as I was not particularly confident at the time using React, so it was definitely a challenge.
 - I’m also happy about having inserted an image upload functionality both for the user profile and for the ads.
 - I tried my best to make my application as user-friendly as possible and to implement as many CRUD  functionalities as I could within the timeframe in order to enable the user to achieve as many actions as possible without having to navigate too much himself through the application.
 - In addition to these wins, from a more personal point of view, on the very last day of my project I ran into multiple last-minute coding errors that I had to pinpoint and solve within a tight timeframe which could have been stressful but I did my best to keep calm and figuring out from the errors display where exactly I did something wrong and progressively made my way out of it.
 
-Key Learnings/Takeaways
+# Key Learnings/Takeaways
 
 - I feel more confident about searching for third party APIs and using them wisely to add more functionalities to my application.
 - I feel more confident with using React.js, especially regarding the good use of useState and useEffect, also using filters.
@@ -242,7 +241,7 @@ Key Learnings/Takeaways
 - I practised using a relational database and some tools to manipulate it such as TablePlus and the Django admin CMS.
 - When things are not working the way I intended there is always a rational reason for it, and patience and persistence are key to move forward and get through difficulties as a coder.
 
-Future Improvements
+# Future Improvements
 
 - The design of my website needs a lot of improvement.
 - The validity of the postcode field should be checked during the first user form submission in order to avoid future problems.
