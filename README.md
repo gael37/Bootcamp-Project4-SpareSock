@@ -27,26 +27,27 @@ This project was fully created individually, within a one week timeframe.
 Technologies Used
 
 Code editor:
-VScode
+- VScode
 
 Design:
-Sass
+- Sass
+- Bootstrap
 
 Front-end:
-React.js
+- React.js
 
 Back-end:
 
-Django
+- Django
 
 Database:
-PostgreSQL
+- PostgreSQL
 
 Others:
-Quick Database Diagrams
-Excalidraw
-Insomnia
-TablePlus
+- Quick Database Diagrams
+- Excalidraw
+- Insomnia
+- TablePlus
 
 # Brief
 
