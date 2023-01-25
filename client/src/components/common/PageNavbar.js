@@ -56,7 +56,7 @@ const PageNavBar = () => {
                 <Nav.Link as={Link} to="/products/new">Post an ad</Nav.Link>
               </div>
               <div className="brand-tel">
-                <NavbarBrand className='navbrand' as={Link} to="/home-user">Spare Sock 🧦</NavbarBrand>
+                <NavbarBrand className='navbrand' as={Link} to="/home-user">Spare🧦Sock</NavbarBrand>
                 <p className="catch-sentence">Post ads and find good deals</p>
               </div>
               <div className='nav-user'>
@@ -73,7 +73,7 @@ const PageNavBar = () => {
                 <Nav.Link as={Link} to="/login">Post an ad</Nav.Link>
               </div>
               <div id="brand-tel">
-                <NavbarBrand className='navbrand' as={Link} to="/">Spare Sock 🧦</NavbarBrand>
+                <NavbarBrand className='navbrand' as={Link} to="/">Spare🧦Sock</NavbarBrand>
                 <p className='catch-sentence'>Post ads and find good deals</p>
               </div>
               <div className='nav-user-bottom'>
