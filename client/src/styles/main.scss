@@ -309,7 +309,7 @@ body {
   // display: flex;
   // flex-direction: column;
   // justify-content: center;
-  width: 300px;
+  width: 250px;
   height: 400px;
   margin: 10px;
   border: 1px solid $primary;
@@ -1002,6 +1002,10 @@ h1 {
   margin: 20px auto;
 }
 
+.single-card-image {
+  height: 300px;
+  width: 300px;
+}
 
 
 
