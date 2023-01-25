@@ -64,7 +64,7 @@ Be deployed online.
 I wanted to create a Gumtree-like platform because I thought it would be adapted to the brief (there are many CRUD functionalities possible with this type of app).
 Here is the wireframe of what I wanted to build:
 
--Home page: 
+- Home page: 
 As you can see below, the website would have a navigation bar at the top with a search bar, a login/logout link, a register link, a home page link, and an ad post link.
 The home page in particular would have a list of ads in the form of an index of cards with an image and descriptive features. It would also have filters (a category selector and a city selector for example).
 ![image](https://user-images.githubusercontent.com/113553373/213533281-9feb44c3-4cae-47d7-8d5d-3cad724e01f8.png)
