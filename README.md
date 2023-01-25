@@ -2,11 +2,11 @@ Description
 
 The 12th and final week of General Assembly’s Software Engineering Immersive bootcamp was about creating a full stack application, individually, using React.js for the front end, Django for the back-end and a PostgreSQL database. My application, called The Bargain Corner, is a Gumtree-like ad hosting platform with an authentication system and CRUD functionalities, where customers can post and browse ads and also message each other.
 
+Deployment link:
+
+https://gd-spare-sock.herokuapp.com/
+
 Getting Started/Code Installation
-
-The project is hosted on GitHub you can find the link below:
-
-github.com/gael37/bargain-app.git
 
 To run the app locally, download the zip file and open it with your code editor, then split the terminal and run these commands:
 
