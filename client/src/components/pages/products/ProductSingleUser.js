@@ -231,7 +231,7 @@ const ProductSingleUser = () => {
 
                 <div className="single-card-image" style={{ backgroundImage: `url(${product.image})` }}></div>
 
-                <div>
+                <div className='single-user-desc'>
                   <p className='single-card-title'>{product.name}</p>
                   <p className='single-card-description'>{product.description}</p>
 
@@ -275,7 +275,7 @@ const ProductSingleUser = () => {
                       <>
                         <div className='flex-send-message'>
                           <div className='single-flex-row'>
-                            <p>Send a message to <span>{product.owner.username}:</span></p>
+                            <p className='mess-p'>Send a message to <span>{product.owner.username}:</span></p>
                           </div>
                           <input
                             type="text"

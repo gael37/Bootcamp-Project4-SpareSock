@@ -231,9 +231,9 @@ const ProductSingle = () => {
 
                 <div className="single-card-image" style={{ backgroundImage: `url(${product.image})` }}></div>
 
-                <div>
+                <div className='single-div-description'>
                   <p className='single-card-title'>{product.name}</p>
-                  <p className='single-card-description'>{product.description}</p>
+                  <p className='single-card-description-full'>{product.description}</p>
 
                   {postedAd() ?
                     <>
@@ -246,7 +246,6 @@ const ProductSingle = () => {
 
                     <>
                       <p className='single-card-price'>£{product.price}</p>
-                      <p className='profile-card-distance'>{(Math.abs(calcDistance(userCoord.userLatitude, userCoord.userLongitude, productOwnerCoord.productOwnerLatitude, productOwnerCoord.productOwnerLongitude))).toFixed(1)} miles | {productOwnerCoord.productOwnerDistrict}</p>
                       <p className='single-card-date'>Posted by <span>{product.owner.username}</span> on <span>{product.created_at.toString().split('T').slice(0, 1).join()}</span></p>
 
 
@@ -273,8 +272,10 @@ const ProductSingle = () => {
                       :
                       <>
                         <div className='flex-send-message'>
+                          <p className='profile-card-distance'>{(Math.abs(calcDistance(userCoord.userLatitude, userCoord.userLongitude, productOwnerCoord.productOwnerLatitude, productOwnerCoord.productOwnerLongitude))).toFixed(1)} miles | {productOwnerCoord.productOwnerDistrict}</p>
+
                           <div className='single-flex-row'>
-                            <p id="mess-p">Send a message to <span>{product.owner.username}:</span></p>
+                            <p className="mess-p">Send a message to <span>{product.owner.username}:</span></p>
                           </div>
                           <input
                             type="text"

@@ -287,8 +287,8 @@ body {
 .profile-row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  margin: 0 15px;
+  justify-content: center;
+  margin: 0 auto;
   align-items: center;
   // border: none;
 }
@@ -330,40 +330,51 @@ body {
 
 
 .profile-card-title {
-  font-size: 15px;
+  font-size: 13px;
   font-weight: bold;
-  text-align: left;
+  text-align: center;
   color: rgb(64, 105, 65);
   margin-bottom: 6px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
 }
 
 .profile-card-price {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
-  text-align: left;
+  text-align: center;
   margin-top: 0px;
   margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .profile-card-description {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: normal;
-  text-align: left;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.profile-card-description-full {
+  font-size: 12px;
+  font-weight: normal;
+  text-align: center;
 }
 
 .profile-card-date {
-  font-size: 10px;
+  font-size: 11px;
   font-weight: normal;
-  text-align: left;
+  text-align: center;
   margin-top: 30px;
 }
 
 .profile-card-distance {
   font-size: 11px;
   font-weight: normal;
-  text-align: left;
+  text-align: center;
   // background-color: green;
   text-decoration: none;
 
@@ -378,6 +389,10 @@ body {
   padding: 0 10px;
   text-decoration: none;
   text-align: left;
+  // border: 3px solid black;
+  width: 100%;
+  padding-top: 0;
+  height: 320px;
 }
 
 .buffer h2 {
@@ -470,10 +485,11 @@ body {
 }
 
 .single-card-image {
-  height: 250px;
-  width: 250px;
-  background-size: contain;
+  height: 350px;
+  width: 450px;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   margin: 0 auto;
   // border-right: 1px solid grey;
   // padding-right: 20px;
@@ -481,11 +497,14 @@ body {
 
 .single-buffer {
   display: flex;
+  flex-direction: column;
   // flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
   // text-align: center;
   width: 70vw;
-  margin-left: 0;
+  margin: 0 auto;
+  text-align: center;
 
   span {
     // color: #4493dd;
@@ -498,7 +517,7 @@ body {
   font-size: 13px;
   font-weight: bold;
   // text-align: left;
-  color: darken($primary, 15);
+  color: black;
   margin-bottom: 6px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -856,11 +875,12 @@ body {
 }
 
 .profile-card {
-  border: 1px solid rgb(64, 105, 65);
-  box-shadow: 1px 1px rgb(64, 105, 65);
-  border-radius: 10px;
+  border: 0px solid rgb(64, 105, 65);
+  box-shadow: 0px 0px rgb(64, 105, 65);
+  border-radius: 0px;
   height: 335px;
-  margin: 10px auto;
+  margin: 10px;
+  background-color: rgba(238, 235, 235, 0.5);
 }
 
 .home-page-input {
@@ -930,7 +950,8 @@ h1 {
 }
 
 .single-card-title {
-  color: rgb(64, 105, 65);
+  color: black;
+  text-transform: uppercase;
 }
 
 .profile-details {
@@ -961,11 +982,25 @@ h1 {
 }
 
 .profile-card-distance2 {
-  text-align: left;
+  text-align: center;
 }
 
 .profile-card-distance {
   font-size: 1.4em;
+}
+
+.single-div-description {
+  width: 100%;
+  text-align: center;
+}
+
+.single-user-desc {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.profile-card-distance {
+  text-align: center;
 }
 
 .flex-send-message {
@@ -973,11 +1008,15 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .btn-post {
   margin-top: 10px;
   width: 50px;
+  margin-left: 0;
 }
 
 .single-flex-row {
@@ -1003,14 +1042,36 @@ h1 {
 }
 
 .single-card-image {
-  height: 300px;
-  width: 300px;
+  height: 500px;
+  width: 700px;
 }
 
+.profile-card-title {
+  color: black;
+  // text-transform: uppercase;
+}
 
+.profile-card-image {
+  width: 230px;
+  height: 150px;
+  // border: 3px solid black;
+  margin-top: 0;
+  padding-top: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  // border: 1px solid black;
+}
 
+.mess-p {
+  margin-left: 30px;
+  width: 100%;
 
+}
 
+.profile-card {
+  border-radius: 10px;
+}
 
 
 
@@ -1032,8 +1093,8 @@ h1 {
   }
 
   .single-card-image {
-    height: 100px;
-    width: 100px;
+    height: 350px;
+    width: 500px;
     background-size: contain;
     background-repeat: no-repeat;
     margin: 0 auto;
@@ -1078,7 +1139,7 @@ h1 {
   .single-card-title {
     margin-top: 0;
     padding-top: 0;
-    color: rgb(64, 105, 65);
+    color: black;
   }
 
 
@@ -1128,7 +1189,7 @@ h1 {
   .single-card-title {
     margin-top: 0;
     padding-top: 0;
-    color: rgb(64, 105, 65);
+    color: black;
   }
 
 
@@ -1153,8 +1214,8 @@ h1 {
   }
 
   .single-card-image {
-    height: 80px;
-    width: 80px;
+    height: 300px;
+    width: 400px;
     background-size: contain;
     background-repeat: no-repeat;
     margin: 0 auto;
@@ -1167,7 +1228,7 @@ h1 {
 @media only screen and (max-width: 700px) {
   .nav-links {
     font-size: 12px;
-    gap: 3em;
+    gap: 4em;
 
     p {
       font-size: 9px;
@@ -1180,7 +1241,7 @@ h1 {
 
   .navbrand {
     color: rgb(64, 105, 65);
-    font-size: 20px;
+    font-size: 0px;
     justify-content: center;
     align-items: center;
     text-decoration: none;
@@ -1194,7 +1255,7 @@ h1 {
   .single-card-title {
     margin-top: 0;
     padding-top: 0;
-    color: rgb(64, 105, 65);
+    color: black;
   }
 
 
@@ -1219,12 +1280,8 @@ h1 {
   }
 
   .single-card-image {
-    width: 200px;
-  }
-
-  .single-card-image {
-    height: 70px;
-    width: 70px;
+    height: 200px;
+    width: 300px;
     background-size: contain;
     background-repeat: no-repeat;
     margin: 0 auto;
@@ -1236,7 +1293,7 @@ h1 {
 @media only screen and (max-width: 500px) {
   .nav-links {
     font-size: 9px;
-    gap: 5em;
+    gap: 3em;
     margin-top: 0;
     padding-top: 0;
     height: 60px;
@@ -1250,7 +1307,7 @@ h1 {
 
   .navbrand {
     color: rgb(64, 105, 65);
-    font-size: 15px;
+    font-size: 20px;
     justify-content: center;
     align-items: center;
     text-decoration: none;
@@ -1268,14 +1325,14 @@ h1 {
 
   .nav-tel {
     display: flex;
-    flex-direction: column;
+    // flex-direction: column;
     justify-content: space-between;
     gap: 10px;
   }
 
   .nav-user-bottom {
     display: flex;
-    flex-direction: column;
+    // flex-direction: column;
     justify-content: space-between;
     gap: 10px;
   }
@@ -1350,16 +1407,38 @@ h1 {
 
   .profile-card {
     height: 330px;
+    border-radius: 10px;
+    margin: 0 auto;
+  }
+
+  .profile-card::nth-last-of-type(1) {
+    align-self: left;
+  }
+
+  .profile-card::nth-last-of-type(2) {
+    align-self: left;
+
+  }
+
+  .profile-card::nth-last-of-type(3) {
+    align-self: left;
+
+  }
+
+  .profile-card::nth-last-of-type(4) {
+    align-self: left;
+
   }
 
   .profile-card-distance {
     text-align: center;
+    border-radius: 5px;
   }
 
   .single-card-title {
     margin-top: 0;
     padding-top: 0;
-    color: rgb(64, 105, 65);
+    color: black;
   }
 
   // .single-card-image {
@@ -1390,14 +1469,24 @@ h1 {
   }
 
   .single-card-image {
-    height: 50px;
-    width: 50px;
+    height: 200px;
+    width: 300px;
     background-size: contain;
     background-repeat: no-repeat;
     margin: 0 auto;
     margin-top: 10px;
     // border-right: 1px solid grey;
     // padding-right: 20px;
+  }
+}
+
+
+
+@media only screen and (max-width: 400) {
+
+  .single-card-image {
+    height: 150px;
+    width: 200px;
   }
 }
 
